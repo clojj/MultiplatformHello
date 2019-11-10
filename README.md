@@ -39,3 +39,5 @@ Unit tests exist for the `:shared`, `:shared-mobile`, and `:server` modules. The
 ## Known issues
 
 - The IDE doesn't recognize that `:shared` is on the `:server` classpath. See https://youtrack.jetbrains.com/issue/KT-29082
+
+-> for IDE start add "Gradle: shared.shared-jvm" from Libraries to IJ "server" module's dependencies
